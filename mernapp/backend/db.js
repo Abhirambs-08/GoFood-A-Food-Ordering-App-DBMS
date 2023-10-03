@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const mongoURI =
-  "mongodb://gofood:Abhi08032003@ac-jzhoilm-shard-00-00.jcny2ll.mongodb.net:27017,ac-jzhoilm-shard-00-01.jcny2ll.mongodb.net:27017,ac-jzhoilm-shard-00-02.jcny2ll.mongodb.net:27017/gofoodmern?ssl=true&replicaSet=atlas-df53ns-shard-0&authSource=admin&retryWrites=true&w=majority";
+  "mongodb://@ac-jzhoilm-shard-00-00.jcny2ll.mongodb.net:27017,ac-jzhoilm-shard-00-01.jcny2ll.mongodb.net:27017,ac-jzhoilm-shard-00-02.jcny2ll.mongodb.net:27017/?ssl=true&replicaSet=atlas-df53ns-shard-0&authSource=admin&retryWrites=true&w=majority"; //replace with mongodb URI
 
 const MongoDB = async () => {
   try {
